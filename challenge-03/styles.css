@@ -1,0 +1,50 @@
+:root {
+    --btn-color: #38CFD9;
+    --bgc: #23424A;
+    --btn-text-color: rgba(7, 42, 45, 1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+
+    background-color: var(--bgc);
+    color: white;
+    padding: 5em;
+}
+
+.inner-container {
+    width: 50%;
+}
+
+.inner-container h1 {
+    margin-bottom: 1em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.inner-container p{
+    margin-bottom: 1em;
+    font-family: Roboto;
+    font-style: normal;
+}
+.btn {
+    margin-top: 1em;
+    background-color: var(--btn-color);
+    padding: 1em 3em;
+    border-radius: 31.5px;
+    mix-blend-mode: normal;
+}
+
+.btn a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--btn-text-color);
+    letter-spacing: 0.05em;
+}
