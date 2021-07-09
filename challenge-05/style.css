@@ -14,7 +14,7 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 body {
@@ -92,25 +92,22 @@ h1 {
     opacity: .75; 
 }
 
-.sidebar{
-    background-color: #136C72;
-    color: white;
-    text-align: center;
-    width: 35%;
-    padding: 2rem;
-    margin: 2rem;
-    margin-right: 0;
+.main{
+    margin-top: 3em;
 }
 
-.sidebar-cont{
-    margin-bottom: 3rem;
-}
-
-.text{
-    margin: 2rem;
+.primary-content{
     width: 62%;
 }
 
-.text h2{
-    color: #136C72;
+.primary-content h2{
+   color: #136C72;
+}
+.sidebar{
+    padding: 2em;
+    width: 32%;
+    background-color: #136C72;
+    color: white;
+    text-align: center;
+
 }
